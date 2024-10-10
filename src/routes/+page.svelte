@@ -22,3 +22,12 @@
 		and logic in both tech and life.
 	</p>
 </div>
+<div class="mb-20">
+	<h2 class="text-2xl font-medium">Latest Blog Posts</h2>
+</div>
+<div class="mb-20">
+	<h2 class="text-2xl font-medium">Experiences & Tools</h2>
+</div>
+<div class="mb-20">
+	<h2 class="text-2xl font-medium" id="contact">Contact</h2>
+</div>
