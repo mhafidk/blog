@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import Footer from '../lib/components/footer.svelte';
 	import Header from '../lib/components/header.svelte';
 </script>
 
@@ -7,3 +8,4 @@
 <main class="max-w-screen-md mx-auto px-5">
 	<slot />
 </main>
+<Footer />
