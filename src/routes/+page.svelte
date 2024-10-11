@@ -1,5 +1,9 @@
 <script>
 	import BlogCard from '../lib/components/blog-card.svelte';
+	import { formatDate } from '$lib/helper';
+
+	export let data;
+	let posts = data.posts;
 
 	const skills = [
 		'elastic.svg',
@@ -19,9 +23,11 @@
 </svelte:head>
 
 <div class="mt-16">
-	<h1 class="text-4xl">Hi! I am <span class="text-lime-600 font-medium">Hafid</span> 👋</h1>
-	<p class="text-4xl font-bold my-3">Software Engineer</p>
-	<p class="text-2xl">
+	<h1 class="text-3xl md:text-4xl">
+		Hi! I am <span class="text-lime-600 font-medium">Hafid</span> 👋
+	</h1>
+	<p class="text-3xl md:text-4xl font-bold my-3">Software Engineer</p>
+	<p class="text-xl md:text-2xl">
 		Currently, I am working as a backend engineer at <a
 			href="https://www.qontak.com"
 			target="_blank"
@@ -45,7 +51,9 @@
 <div class="mb-20">
 	<h2 class="text-2xl font-medium">Latest Blog Posts</h2>
 	<div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
-		<BlogCard />
+		{#each posts as post}
+			<BlogCard {post} />
+		{/each}
 	</div>
 	<div class="mt-12 text-center">
 		<a
