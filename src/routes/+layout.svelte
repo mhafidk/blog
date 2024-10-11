@@ -5,7 +5,7 @@
 </script>
 
 <Header />
-<main class="max-w-screen-md mx-auto px-5">
+<main class="max-w-screen-md mx-auto px-5 min-h-screen">
 	<slot />
 </main>
 <Footer />
