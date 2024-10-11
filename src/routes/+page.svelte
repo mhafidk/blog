@@ -1,6 +1,5 @@
 <script>
 	import BlogCard from '../lib/components/blog-card.svelte';
-	import { formatDate } from '$lib/helper';
 
 	export let data;
 	let posts = data.posts;
