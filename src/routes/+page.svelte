@@ -46,9 +46,6 @@
 	<h2 class="text-2xl font-medium">Latest Blog Posts</h2>
 	<div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
 		<BlogCard />
-		<BlogCard />
-		<BlogCard />
-		<BlogCard />
 	</div>
 	<div class="mt-12 text-center">
 		<a
