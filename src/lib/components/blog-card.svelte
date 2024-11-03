@@ -2,9 +2,13 @@
 	export let post;
 </script>
 
-<div class="bg-neutral-100 bg-opacity-75 rounded-md overflow-hidden border">
-	<div>
-		<img src={post.coverImage.url} alt={post.title} class="h-48 w-full object-cover" />
+<div class="bg-neutral-100 bg-opacity-75 rounded-md overflow-hidden shadow">
+	<div class="overflow-hidden">
+		<img
+			src={post.coverImage.url}
+			alt={post.title}
+			class="h-48 w-full object-cover transition ease-in-out hover:scale-110"
+		/>
 	</div>
 	<div class="px-4 py-3">
 		<a href={`/blog/${post.slug}`} class="text-xl font-medium text-lime-600 hover:text-lime-700"

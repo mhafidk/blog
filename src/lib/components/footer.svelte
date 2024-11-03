@@ -7,7 +7,7 @@
 	<div class="flex gap-6">
 		<a href="mailto:mhafidk@gmail.com" target="_blank" rel="noreferrer">
 			<svg
-				class="h-4 w-4 text-neutral-900 hover:text-lime-700 fill-current"
+				class="h-5 w-5 text-neutral-900 hover:text-lime-700 fill-current"
 				role="img"
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@
 		</a>
 		<a href="https://www.github.com/mhafidk" target="_blank" rel="noreferrer">
 			<svg
-				class="h-4 w-4 text-neutral-900 hover:text-lime-700 fill-current"
+				class="h-5 w-5 text-neutral-900 hover:text-lime-700 fill-current"
 				role="img"
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@
 		</a>
 		<a href="https://www.linkedin.com/in/mhafidk" target="_blank" rel="noreferrer">
 			<svg
-				class="h-4 w-4 text-neutral-900 hover:text-lime-700 fill-current"
+				class="h-5 w-5 text-neutral-900 hover:text-lime-700 fill-current"
 				role="img"
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
