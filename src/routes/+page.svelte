@@ -3,13 +3,17 @@
 	import Socialmedia from '$lib/components/socialmedia.svelte';
 </script>
 
+<svelte:head>
+	<title>Muhammad Hafid Khoirul</title>
+</svelte:head>
+
 <div class="">
 	<div class="">
 		<p>
 			Hi! My name is
 			<span class="font-bold text-lime-600">Muhammad Hafid Khoirul</span>.
 		</p>
-		<p class="mt-2">
+		<p class="mt-3">
 			I'm a software engineer based in Bogor, Indonesia. Currently, I'm working as a backend
 			engineer at
 			<a
@@ -21,12 +25,12 @@
 			expertise includes building robust APIs, crafting optimized queries, and writing
 			high-performance, well-tested, maintainable code.
 		</p>
-		<p class="mt-2">
+		<p class="mt-3">
 			Outside of development, I'm an amateur photographer and a writer. I enjoy blending creativity
 			and logic in both tech and life.
 		</p>
 	</div>
-	<div class="mt-2">
+	<div class="mt-3">
 		<p>
 			<a
 				href="/about"
