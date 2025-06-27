@@ -17,26 +17,26 @@
 		<div class="mt-4 flex justify-center gap-6 text-sm sm:justify-start">
 			<a
 				href="/"
-				class="border-b-2 border-transparent pb-4 hover:text-lime-600"
+				class="border-b-2 border-transparent pb-4 hover:text-lime-700"
 				class:text-lime-600={$page.url?.pathname === '/'}
 				class:border-lime-600={$page.url?.pathname === '/'}
 				class:border-transparent={$page.url?.pathname !== '/'}>Home</a
 			>
 			<a
 				href="/about"
-				class="border-b-2 border-transparent pb-4 hover:text-lime-600"
+				class="border-b-2 border-transparent pb-4 hover:text-lime-700"
 				class:text-lime-600={$page.url?.pathname === '/about'}
 				class:border-lime-600={$page.url?.pathname === '/about'}
 				class:border-transparent={$page.url?.pathname !== '/about'}>About</a
 			>
 			<a
 				href="/blog"
-				class="border-b-2 border-transparent pb-4 hover:text-lime-600"
+				class="border-b-2 border-transparent pb-4 hover:text-lime-700"
 				class:text-lime-600={$page.url?.pathname.includes('/blog')}
 				class:border-lime-600={$page.url?.pathname.includes('/blog')}
 				class:border-transparent={!$page.url?.pathname.includes('/blog')}>Blog</a
 			>
-			<a href="/#contact" class="border-b-2 border-transparent pb-4 hover:text-lime-600">Contact</a>
+			<a href="/#contact" class="border-b-2 border-transparent pb-4 hover:text-lime-700">Contact</a>
 		</div>
 	</nav>
 </header>
