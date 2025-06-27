@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Footer from '$lib/components/footer.svelte';
 	import Header from '$lib/components/header.svelte';
 	import '../app.css';
 
@@ -12,5 +13,6 @@
 			<img src="photo-cover.webp" class="h-full w-full rounded object-cover" alt="Background" />
 		</div>
 		{@render children()}
+		<Footer />
 	</div>
 </div>
