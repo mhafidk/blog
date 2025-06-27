@@ -1,6 +1,18 @@
-<script>
+<script lang="ts">
 	import Blogcard from '$lib/components/blogcard.svelte';
 	import Socialmedia from '$lib/components/socialmedia.svelte';
+
+	export let data: {
+		posts: {
+			title: string;
+			date: string;
+			tags?: string[];
+			slug: string;
+			image: string;
+		}[];
+	};
+
+	const posts = data.posts;
 </script>
 
 <svelte:head>
@@ -45,9 +57,9 @@
 <div class="mt-14">
 	<h2 class="text-xl font-semibold">Latest Blog Posts</h2>
 	<div class="mt-6 grid gap-4 sm:grid-cols-2 [max-width:639px]:grid-cols-1">
-		<Blogcard />
-		<Blogcard />
-		<Blogcard />
+		{#each posts as post}
+			<Blogcard {post} />
+		{/each}
 	</div>
 	<div class="mt-8">
 		<a
