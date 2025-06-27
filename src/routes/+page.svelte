@@ -25,7 +25,7 @@
 			expertise includes building robust APIs, crafting optimized queries, and writing
 			high-performance, well-tested, maintainable code.
 		</p>
-		<p class="mt-3">
+		<p class="mt-3" id="contact">
 			Outside of development, I'm an amateur photographer and a writer. I enjoy blending creativity
 			and logic in both tech and life.
 		</p>
