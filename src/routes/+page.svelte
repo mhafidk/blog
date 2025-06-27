@@ -1,4 +1,5 @@
 <script>
+	import Blogcard from '$lib/components/blogcard.svelte';
 	import Socialmedia from '$lib/components/socialmedia.svelte';
 </script>
 
@@ -36,4 +37,19 @@
 		</p>
 	</div>
 	<Socialmedia />
+</div>
+<div class="mt-14">
+	<h2 class="text-xl font-semibold">Latest Blog Posts</h2>
+	<div class="mt-6 grid gap-4 sm:grid-cols-2 [max-width:639px]:grid-cols-1">
+		<Blogcard />
+		<Blogcard />
+		<Blogcard />
+	</div>
+	<div class="mt-8">
+		<a
+			href="/blog"
+			class="border-b border-b-lime-600 text-lime-600 hover:border-b-lime-700 hover:text-lime-700"
+			>More posts</a
+		>
+	</div>
 </div>
