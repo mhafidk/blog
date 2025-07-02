@@ -20,11 +20,9 @@
 				class="mt-2 text-xl font-medium hover:cursor-pointer hover:text-lime-700">{post.title}</a
 			>
 			<div class="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm">
-				<div>
-					{#each post.tags as tag}
-						<p class="w-fit text-lime-700">{tag}</p>
-					{/each}
-				</div>
+				{#each post.tags as tag}
+					<p class="w-fit text-lime-700">{tag}</p>
+				{/each}
 			</div>
 		</div>
 	</div>
