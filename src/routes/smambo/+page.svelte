@@ -57,7 +57,7 @@
 			<div class="mt-3">
 				<div class="">
 					<h4 class="font-medium">XI</h4>
-					<div class="mt-3">
+					<div class="mt-3 grid grid-cols-1 gap-2">
 						{#each tugas_mtk_umum as tugas}
 							<MateriTugas content={tugas} materi={false} />
 						{/each}
@@ -65,7 +65,7 @@
 				</div>
 				<div class="mt-3">
 					<h4 class="font-medium">XII</h4>
-					<div class="mt-3">
+					<div class="mt-3 grid grid-cols-1 gap-2">
 						{#each tugas_mtk_lanjut as tugas}
 							<MateriTugas content={tugas} materi={false} />
 						{/each}
@@ -76,7 +76,7 @@
 		<div class="mt-6">
 			<h3 class="text-xl font-bold">Matematika Umum</h3>
 			<div class="mt-3">
-				<div class="">
+				<div class="grid grid-cols-1 gap-2">
 					{#each materi_mtk_umum as materi}
 						<MateriTugas content={materi} materi={true} />
 					{/each}
@@ -86,7 +86,7 @@
 		<div class="mt-6">
 			<h3 class="text-xl font-bold">Matematika Lanjut</h3>
 			<div class="mt-3">
-				<div class="">
+				<div class="grid grid-cols-1 gap-2">
 					{#each materi_mtk_lanjut as materi}
 						<MateriTugas content={materi} materi={true} />
 					{/each}

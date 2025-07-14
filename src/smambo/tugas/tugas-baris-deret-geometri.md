@@ -1,6 +1,6 @@
 ---
-title: Tugas Baris dan Deret Aritmatika
-slug: tugas-baris-deret-aritmatika
+title: Tugas Baris dan Deret Geometri
+slug: tugas-baris-deret-geometri
 umum: true
 ---
 
