@@ -7,7 +7,7 @@
 		<div class="flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start">
 			<a href="/" class=""
 				><img
-					src="mhk-potrait.webp"
+					src="/mhk-potrait.webp"
 					class="h-12 w-12 rounded-full sm:h-8 sm:w-8"
 					alt="Muhammad Hafid K"
 				/></a

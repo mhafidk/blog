@@ -16,7 +16,7 @@
 		<Header />
 		{#if !$currentPath.includes('/blog/')}
 			<div class="flex h-64 items-center justify-center overflow-hidden pb-14">
-				<img src="photo-cover.webp" class="h-full w-full rounded object-cover" alt="Background" />
+				<img src="/photo-cover.webp" class="h-full w-full rounded object-cover" alt="Background" />
 			</div>
 		{/if}
 		{@render children()}
