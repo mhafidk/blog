@@ -1,6 +1,6 @@
 ---
-title: Tugas Baris dan Deret Aritmatika
-slug: tugas-baris-deret-aritmatika
+title: Transformasi Geometri - Translasi
+slug: transformasi-geometri-translasi
 umum: true
 ---
 

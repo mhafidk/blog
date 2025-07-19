@@ -1,6 +1,6 @@
 ---
-title: Limit
-slug: limit
+title: Matriks
+slug: matriks
 umum: false
 ---
 

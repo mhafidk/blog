@@ -1,7 +1,7 @@
 ---
-title: Tugas Limit
-slug: tugas-limit
-umum: false
+title: Tugas Fungsi
+slug: tugas-fungsi
+umum: true
 ---
 
 <figure>

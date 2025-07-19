@@ -1,6 +1,6 @@
 ---
-title: Baris dan Deret Geometri
-slug: baris-deret-geometri
+title: Tugas Transformasi Geometri - Translasi
+slug: tugas-transformasi-geometri-translasi
 umum: true
 ---
 

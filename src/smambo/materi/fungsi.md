@@ -1,6 +1,6 @@
 ---
-title: Tugas Baris dan Deret Geometri
-slug: tugas-baris-deret-geometri
+title: Fungsi
+slug: fungsi
 umum: true
 ---
 
