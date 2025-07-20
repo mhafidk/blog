@@ -1,26 +1,26 @@
 ---
-title: Transformasi Geometri - Translasi
-slug: transformasi-geometri-translasi
+title: Transformasi Fungsi - Translasi
+slug: transformasi-fungsi-translasi
 umum: true
 ---
 
 <div class="">
   <p class="font-medium text-lg text-black mb-1">Table of Content</p>
   <div class="flex flex-col">
-    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#apa-itu-transformasi-geometri%3F">Apa itu Transformasi Geometri?</a>
-    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#transformasi-geometri---translasi">Transformasi Geometri - Translasi</a>
-    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-vertikal">Translasi Vertikal</a>
-    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-vertikal-ke-atas">Translasi Vertikal Ke Atas</a>
-    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-vertikal-ke-bawah">Translasi Vertikal Ke Bawah</a>
-    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-horizontal">Translasi Horizontal</a>
-    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-horizontal-ke-kanan">Translasi Horizontal Ke Kanan</a>
-    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-horizontal-ke-kiri">Translasi Horizontal Ke Kiri</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#apa-itu-transformasi-fungsi%3F">Apa itu Transformasi Fungsi?</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#transformasi-fungsi---translasi">Transformasi Fungsi - Translasi</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#translasi-vertikal">Translasi Vertikal</a>
+    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#translasi-vertikal-ke-atas">Translasi Vertikal Ke Atas</a>
+    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#translasi-vertikal-ke-bawah">Translasi Vertikal Ke Bawah</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#translasi-horizontal">Translasi Horizontal</a>
+    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#translasi-horizontal-ke-kanan">Translasi Horizontal Ke Kanan</a>
+    <a class="pl-6 text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-fungsi-translasi#translasi-horizontal-ke-kiri">Translasi Horizontal Ke Kiri</a>
   </div>
 </div>
 
-## Apa itu Transformasi Geometri?
-Transformasi geometri adalah perubahan posisi dan atau ukuran suatu objek, baik berupa titik, garis, kurva, atau pun bidang.
-## Transformasi Geometri - Translasi
+## Apa itu Transformasi Fungsi?
+Transformasi fungsi adalah perubahan posisi dan atau ukuran suatu objek, baik berupa titik, garis, kurva, atau pun bidang.
+## Transformasi Fungsi - Translasi
 Translasi adalah transformasi yang memindahkan objek dengan arah dan jarak tertentu atau biasa disebut dengan pergeseran. Contoh,
 
 ![Contoh translasi](/materi-images/translasi/Screenshot-2025-07-19-221910.png)
@@ -41,7 +41,7 @@ $$
 
 disebut dengan komponen translasi, dengan $a$ adalah pergeseran secara horizontal (pada sumbu $x$) dan $b$ adalah pergeseran secara vertikal (pada sumbu $y$).
 
-Terdapat 3 jenis transformasi geometri translasi, translasi vertikal, translasi horizontal, dan translasi kombinasi (vertikal dan horizontal).
+Terdapat 3 jenis transformasi fungsi translasi, translasi vertikal, translasi horizontal, dan translasi kombinasi (vertikal dan horizontal).
 ### Translasi Vertikal
 Translasi vertikal mempengaruhi titik $y$ atau pada sumbu vertikal.
 
