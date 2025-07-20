@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { marked } from 'marked';
+	import { md } from '$lib/markdownparser';
+	import { renderMath } from '$lib/mathparser';
+	import 'katex/dist/katex.min.css';
 
 	export let data: {
 		tugas: {
@@ -9,8 +11,8 @@
 	};
 
 	const { tugas } = data;
-
-	const html = marked.parse(tugas.content);
+  const rawHtml = md.render(tugas.content);
+	const html = renderMath(rawHtml);
 </script>
 
 <svelte:head>
