@@ -4,6 +4,20 @@ slug: transformasi-geometri-translasi
 umum: true
 ---
 
+<div class="flex flex-col items-center">
+  <p class="font-bold text-lg text-black mb-1">Table of Content</p>
+  <div class="flex flex-col items-center">
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#apa-itu-transformasi-geometri%3F">Apa itu Transformasi Geometri?</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#transformasi-geometri---translasi">Transformasi Geometri - Translasi</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-vertikal">Translasi Vertikal</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-vertikal-ke-atas">Translasi Vertikal Ke Atas</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-vertikal-ke-bawah">Translasi Vertikal Ke Bawah</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-horizontal">Translasi Horizontal</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-horizontal-ke-kanan">Translasi Horizontal Ke Kanan</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/transformasi-geometri-translasi#translasi-horizontal-ke-kiri">Translasi Horizontal Ke Kiri</a>
+  </div>
+</div>
+
 ## Apa itu Transformasi Geometri?
 Transformasi geometri adalah perubahan posisi dan atau ukuran suatu objek, baik berupa titik, garis, kurva, atau pun bidang.
 ## Transformasi Geometri - Translasi
