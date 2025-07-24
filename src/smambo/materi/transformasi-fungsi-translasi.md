@@ -30,13 +30,13 @@ Pada gambar grafik diatas, garis $y=2x$ digeser sejauh 3 satuan. Hasil dari perg
 Sebuah titik $A(x, y)$ jika ditranslasikan oleh
 
 $$
-T \begin{pmatrix} a \\\\ b \end{pmatrix}
+T \begin{pmatrix} a \\ b \end{pmatrix}
 $$
 
 menghasilkan bayangan $A^{\prime}(x^{\prime}, y^{\prime})$.
 
 $$
-T \begin{pmatrix} a \\\\ b \end{pmatrix}
+T \begin{pmatrix} a \\ b \end{pmatrix}
 $$
 
 disebut dengan komponen translasi, dengan $a$ adalah pergeseran secara horizontal (pada sumbu $x$) dan $b$ adalah pergeseran secara vertikal (pada sumbu $y$).
@@ -56,13 +56,13 @@ Yang mengalami pergeseran **ke atas** yaitu persamaan garis akhirnya $y=2x+2$, k
 Dari 2 pergeseran diatas, kita dapat menuliskan komponen translasinya sebagai berikut,
 
 $$
-T \begin{pmatrix} 0 \\\\ 2 \end{pmatrix}
+T \begin{pmatrix} 0 \\ 2 \end{pmatrix}
 $$
 
 Translasi vertikal **ke atas** sejauh 2 satuan
 
 $$
-T \begin{pmatrix} 0 \\\\ -4 \end{pmatrix}
+T \begin{pmatrix} 0 \\ -4 \end{pmatrix}
 $$
 
 Translasi vertikal **ke bawah** sejauh 4 satuan
@@ -71,7 +71,7 @@ Translasi vertikal **ke bawah** sejauh 4 satuan
 Terdapat garis $y=x+4$. Garis tersebut ditranslasi sejauh 3 satuan **ke atas** atau dengan komponen translasi
 
 $$
-T \begin{pmatrix} 0 \\\\ 3 \end{pmatrix}
+T \begin{pmatrix} 0 \\ 3 \end{pmatrix}
 $$
 
 Tentukan persamaan akhir garis tersebut setelah ditranslasi!
@@ -81,7 +81,7 @@ Jawab.
   ![Persamaan garis awal](/materi-images/translasi/Screenshot-2025-07-19-225540.png)
 - Garis ditranslasi sejauh 3 satuan **ke atas** atau dengan komponen translasi
 $$
-T \begin{pmatrix} 0 \\\\ 3 \end{pmatrix}
+T \begin{pmatrix} 0 \\ 3 \end{pmatrix}
 $$
 - $y^{\prime}=y+3$
 	- $y^{\prime}$ adalah persamaan hasil translasi.
@@ -98,7 +98,7 @@ $$
 Terdapat garis $y=2x+3$. Garis tersebut ditranslasi sejauh 4 satuan **ke bawah** atau dengan komponen translasi
 
 $$
-T \begin{pmatrix} 0 \\\\ -4 \end{pmatrix}
+T \begin{pmatrix} 0 \\ -4 \end{pmatrix}
 $$
 
 Tentukan persamaan akhir garis tersebut setelah ditranslasi!
@@ -108,7 +108,7 @@ Jawab.
   ![Persamaan garis awal](/materi-images/translasi/Screenshot-2025-07-19-230357.png)
 - Garis ditranslasi sejauh 4 satuan **ke bawah** atau dengan komponen translasi
 $$
-T \begin{pmatrix} 0 \\\\ -4 \end{pmatrix}
+T \begin{pmatrix} 0 \\ -4 \end{pmatrix}
 $$
 - $y^{\prime}=y-4$
 	- $y^{\prime}$ adalah persamaan hasil translasi.
@@ -134,13 +134,13 @@ Yang mengalami pergeseran **ke kanan** yaitu persamaan garis akhirnya $y=2x-4$, 
 Dari 2 pergeseran diatas, kita dapat menuliskan komponen translasinya sebagai berikut,
 
 $$
-T \begin{pmatrix} 2 \\\\ 0 \end{pmatrix}
+T \begin{pmatrix} 2 \\ 0 \end{pmatrix}
 $$
 
 Translasi horizontal **ke kanan** sejauh 2 satuan
 
 $$
-T \begin{pmatrix} -4 \\\\ 0 \end{pmatrix}
+T \begin{pmatrix} -4 \\ 0 \end{pmatrix}
 $$
 
 Translasi horizontal **ke kiri** sejauh 4 satuan
@@ -149,7 +149,7 @@ Translasi horizontal **ke kiri** sejauh 4 satuan
 Terdapat garis $y=x+4$. Garis tersebut ditranslasi sejauh 3 satuan **ke kanan** atau dengan komponen translasi
 
 $$
-T \begin{pmatrix} 3 \\\\ 0 \end{pmatrix}
+T \begin{pmatrix} 3 \\ 0 \end{pmatrix}
 $$
 
 Tentukan persamaan akhir garis tersebut setelah ditranslasi!
@@ -159,7 +159,7 @@ Jawab.
   ![Persamaan garis awal](/materi-images/translasi/Screenshot-2025-07-19-232201.png)
 - Garis ditranslasi sejauh 3 satuan **ke kanan** atau dengan komponen translasi
 $$
-T \begin{pmatrix} 3 \\\\ 0 \end{pmatrix}
+T \begin{pmatrix} 3 \\ 0 \end{pmatrix}
 $$
 - Tentukan persamaan translasinya
 	- $x^{\prime}=x+3$
@@ -180,7 +180,7 @@ $$
 Terdapat garis $y=2x+3$. Garis tersebut ditranslasi sejauh 4 satuan **ke kiri** atau dengan komponen translasi
 
 $$
-T \begin{pmatrix} -4 \\\\ 0 \end{pmatrix}
+T \begin{pmatrix} -4 \\ 0 \end{pmatrix}
 $$
 
 Tentukan persamaan akhir garis tersebut setelah ditranslasi!
@@ -190,7 +190,7 @@ Jawab.
   ![Persamaan garis awal](/materi-images/translasi/Screenshot-2025-07-19-230357.png)
 - Garis ditranslasi sejauh 4 satuan **ke kiri** atau dengan komponen translasi
 $$
-T \begin{pmatrix} -4 \\\\ 0 \end{pmatrix}
+T \begin{pmatrix} -4 \\ 0 \end{pmatrix}
 $$
 - Tentukan persamaan translasinya
 	- $x^{\prime}=x-4$

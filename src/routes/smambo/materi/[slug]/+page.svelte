@@ -11,8 +11,8 @@
 	};
 
 	const { materi } = data;
-  const rawHtml = md.render(materi.content);
-	const html = renderMath(rawHtml);
+	const rawHtml = renderMath(materi.content);
+  const html = md.render(rawHtml);
 </script>
 
 <svelte:head>

@@ -11,8 +11,8 @@
 	};
 
 	const { tugas } = data;
-  const rawHtml = md.render(tugas.content);
-	const html = renderMath(rawHtml);
+  const rawHtml = renderMath(tugas.content);
+  const html = md.render(rawHtml);
 </script>
 
 <svelte:head>

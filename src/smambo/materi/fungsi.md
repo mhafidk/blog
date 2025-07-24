@@ -4,6 +4,17 @@ slug: fungsi
 umum: true
 ---
 
+<div class="">
+  <p class="font-medium text-lg text-black mb-1">Table of Content</p>
+  <div class="flex flex-col">
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/fungsi#apa-itu-fungsi%3F">Apa Itu Fungsi?</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/fungsi#menghitung-nilai-fungsi">Menghitung Nilai Fungsi</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/fungsi#menggambar-grafik-dari-sebuah-fungsi">Menggambar Grafik Dari Sebuah Fungsi</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/fungsi#penjumlahan-dan-pengurangan-fungsi">Penjumlahan dan Pengurangan Fungsi</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/fungsi#perkalian-dan-pembagian-fungsi">Perkalian dan Pembagian Fungsi</a>
+  </div>
+</div>
+
 ## Apa Itu Fungsi?
 Fungsi merupakan suatu relasi yang menghubungkan satu anggota dari suatu
 himpunan tepat ke satu anggota di himpunan yang lain atau setiap input nya hanya memiliki satu output.
