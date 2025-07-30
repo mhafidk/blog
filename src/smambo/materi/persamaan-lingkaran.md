@@ -10,6 +10,7 @@ umum: false
     <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/persamaan-lingkaran#persamaan-umum-lingkaran">Persamaan Umum Lingkaran</a>
     <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/persamaan-lingkaran#persamaan-lingkaran-dengan-pusat-0%2C-0">Persamaan Lingkaran Dengan Pusah 0,0</a>
     <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/persamaan-lingkaran#persamaan-lingkaran-dengan-pusat-a%2C-b">Persamaan Lingkaran Dengan Pusah a,b</a>
+		<a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/persamaan-lingkaran#menentukan-titik-pusat-dan-jari-jari-lingkaran-berdasarkan-persamaan-lingkarannya">Menentukan Titik Pusat dan Jari Jari Lingkaran Berdasarkan Persamaan Lingkarannya</a>
   </div>
 </div>
 
