@@ -74,22 +74,25 @@
 			</div>
 		</div>
 		<div class="mt-6">
-			<h3 class="text-xl font-bold">Matematika Umum</h3>
+			<h3 class="text-xl font-bold">Materi</h3>
 			<div class="mt-3">
-				<div class="grid grid-cols-1 gap-2">
-					{#each materi_mtk_umum as materi}
-						<MateriTugas content={materi} materi={true} />
-					{/each}
+				<h4 class="font-medium">Matematika Umum</h4>
+				<div class="mt-3">
+					<div class="grid grid-cols-1 gap-2">
+						{#each materi_mtk_umum as materi}
+							<MateriTugas content={materi} materi={true} />
+						{/each}
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="mt-6">
-			<h3 class="text-xl font-bold">Matematika Lanjut</h3>
 			<div class="mt-3">
-				<div class="grid grid-cols-1 gap-2">
-					{#each materi_mtk_lanjut as materi}
-						<MateriTugas content={materi} materi={true} />
-					{/each}
+				<h4 class="font-medium">Matematika Lanjut</h4>
+				<div class="mt-3">
+					<div class="grid grid-cols-1 gap-2">
+						{#each materi_mtk_lanjut as materi}
+							<MateriTugas content={materi} materi={true} />
+						{/each}
+					</div>
 				</div>
 			</div>
 		</div>

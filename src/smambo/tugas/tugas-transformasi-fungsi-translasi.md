@@ -1,6 +1,6 @@
 ---
-title: Tugas Transformasi Geometri - Translasi
-slug: tugas-transformasi-geometri-translasi
+title: Tugas Transformasi Fungsi - Translasi
+slug: tugas-transformasi-fungsi-translasi
 umum: true
 ---
 
