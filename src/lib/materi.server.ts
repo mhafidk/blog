@@ -14,7 +14,7 @@ const materiDir = path.resolve('src/smambo/materi');
 export function getAllMateri(): Materi[] {
 	const files = fs.readdirSync(materiDir);
 
-	return files
+	const materiList = files
 		.filter((f) => f.endsWith('.md'))
 		.map((filename) => {
 			const filePath = path.join(materiDir, filename);
@@ -28,4 +28,5 @@ export function getAllMateri(): Materi[] {
 				content
 			};
 		});
+	return materiList.sort((a, b) => a.title.localeCompare(b.title));
 }

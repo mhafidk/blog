@@ -14,7 +14,7 @@ const tugasDir = path.resolve('src/smambo/tugas');
 export function getAllTugas(): Tugas[] {
 	const files = fs.readdirSync(tugasDir);
 
-	return files
+	const tugasList = files
 		.filter((f) => f.endsWith('.md'))
 		.map((filename) => {
 			const filePath = path.join(tugasDir, filename);
@@ -28,4 +28,5 @@ export function getAllTugas(): Tugas[] {
 				content
 			};
 		});
+	return tugasList.sort((a, b) => a.title.localeCompare(b.title));
 }
