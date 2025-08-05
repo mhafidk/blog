@@ -8,7 +8,7 @@ Diketahui:
 
 - $f(x)=\frac{1}{x}$
 - $g(x)=2x+1$
-- $h(x)=\frac{1}{2x+1}$
+- $h(x)=\frac{1}{2x}$
 - $i(x)=2x^2+1$
 
 1. Tentukan $(f \circ g)(x)$
