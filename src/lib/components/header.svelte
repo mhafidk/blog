@@ -12,7 +12,11 @@
 					alt="Muhammad Hafid K"
 				/></a
 			>
-			<a href="/" class="text-2xl font-bold hover:text-lime-700">Muhammad Hafid K</a>
+			<a
+				href="/"
+				class="bg-gradient-to-r from-emerald-500 to-lime-600 bg-clip-text text-2xl font-bold text-transparent"
+				>Muhammad Hafid K</a
+			>
 		</div>
 		<div class="mt-4 flex justify-center gap-6 text-sm sm:justify-start">
 			<a
