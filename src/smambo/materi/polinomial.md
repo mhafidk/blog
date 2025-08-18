@@ -9,6 +9,8 @@ umum: false
   <div class="flex flex-col">
     <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/polinomial#pengertian-polinomial">Pengertian Polinomial</a>
     <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/polinomial#derajat-suatu-polinomial">Derajat Suatu Polinomial</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/polinomial#penjumlahan-dan-pengurangan-polinomial">Penjumlahan dan Pengurangan Polinomial</a>
+    <a class="text-lime-600 hover:text-lime-700" href="/smambo/materi/polinomial#perkalian-polinomial">Perkalian Polinomial</a>
   </div>
 </div>
 
@@ -69,6 +71,53 @@ Jawab,
 	- $54x$ berderajat 1
 	- $-27$ berderajat 0
 - Derajat tertinggi dari suku suku polinomial tersebut adalah 3, sehingga derajat dari polinomial tersebut ada 3.
-## Penjumlahan Polinomial
-## Pengurangan Polinomial
+
+## Penjumlahan dan Pengurangan Polinomial
+Penjumlahan dan pengurangan polinomial dilakukan dengan menjumlahkan dan mengurangkan suku-suku yang sejenis. Suku-suku sejenis adalah suku-suku yang memiliki variabel sama dan eksponen dari variabelnya juga sama.
+
+Contoh suku sejenis,
+$$
+3x,-7x\frac{1}{5}x
+$$
+Suku-suku diatas sama sama memiliki variable $x$, sehingga dikatakan suku sejenis.
+$$
+x^3y,5x^3y\frac{1}{2}yx^3
+$$
+Suku-suku diatas sama sama memiliki variable $x^3y$, sehingga dikatakan suku sejenis.
+
+Contoh penjumlahan polinomial,
+
+Tentukan hasil dari $(2x^3-4x^2+x-11)+(5x^3+x^2-3x-9)$!
+
+Jawab,
+- $(2x^3-4x^2+x-11)+(5x^3+x^2-3x-9)$
+- Kelompokan suku sejenisnya
+	- $2x^3+5x^3-4x^2+x^2+x-3x-11-9$
+- Hitung suku yang sejenis
+	- $7x^3-3x^2-2x-20$
+- Sehingga hasil penjumlahannya adalah $7x^3-3x^2-2x-20$
+
+Contoh pengurangan polinomial,
+
+Tentukan hasil dari $(x^4-3x^2+4x-6)-(5x^3+2x^2-x-4)$!
+
+Jawab,
+- $(x^4-3x^2+4x-6)-(5x^3+2x^2-x-4)$
+- Kelompokan suku sejenisnya
+	- $x^4-5x^3-3x^2-2x^2+4x+x-6+4$
+- Hitung suku yang sejenis
+	- $x^4-5x^3-5x^2+5x-2$
+- Sehingga hasil pengurangannya adalah $x^4-5x^3-5x^2+5x-2$
 ## Perkalian Polinomial
+Perkalian polinomial dilakukan dengan melakukan kali silang antara 2 polinomialnya. Contoh, hitunglah $(x-5)(x^2+3x-1)$!
+
+Jawab,
+- $(x-5)(x^2+3x-1)$
+- Lakukan kali silang
+	- $(x\times x^2)+(x\times 3x)+(x\times (-1))+(-5\times x^2)+(-5\times 3x)+(-5\times (-1))$
+	- $x^3+3x^2-x-5x^2-15x+5$
+- Jumlahkan atau kurangkan suku yang sejenis
+	- $x^3+3x^2-x-5x^2-15x+5$
+	- $x^3+3x^2-5x^2-x-15x+5$
+	- $x^3-2x^2-16x+5$
+- Sehingga hasil perkaliannya adalah $x^3-2x^2-16x+5$
