@@ -13,7 +13,6 @@
 	};
 
 	const posts = data.posts;
-  console.log(posts)
 </script>
 
 <svelte:head>

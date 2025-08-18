@@ -12,7 +12,7 @@
 
 	const { materi } = data;
 	const rawHtml = renderMath(materi.content);
-  const html = md.render(rawHtml);
+	const html = md.render(rawHtml);
 </script>
 
 <svelte:head>
