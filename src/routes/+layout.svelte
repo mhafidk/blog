@@ -25,4 +25,11 @@
 	<main class="py-12">
 		{@render children?.()}
 	</main>
+	<footer class="mt-72 mb-6 text-center text-sm">
+		<p>
+			© 2024
+			<span class="font-medium text-violet-700">Muhammad Hafid Khoirul</span>.
+			<br class="block md:hidden" />All rights reserved.
+		</p>
+	</footer>
 </div>

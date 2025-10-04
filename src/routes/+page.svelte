@@ -128,8 +128,8 @@
 		</p>
 	</div>
 </div>
-<div class="mt-16">
-	<h2 class="text-lg font-medium" id="about">About</h2>
+<div class="pt-16" id="about">
+	<h2 class="text-lg font-medium">About</h2>
 	<div class="mt-4 rounded bg-neutral-100">
 		<div class="px-8 py-6">
 			<p class="">
@@ -176,7 +176,7 @@
 				platforms! I'll get back to you as soon as possible. 👌
 			</p>
 		</div>
-		<div class="mt-6 flex justify-center gap-8">
+		<div class="mt-8 flex justify-center gap-8">
 			<!-- svelte-ignore a11y_consider_explicit_label -->
 			<a href="mailto:mhafidk@gmail.com" target="_blank" rel="noreferrer">
 				<svg
