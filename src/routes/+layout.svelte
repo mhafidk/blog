@@ -1,12 +1,11 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/mhk-logo.png';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href="/mhk-logo.png" />
 </svelte:head>
 
 <div class="mx-auto max-w-3xl p-4">

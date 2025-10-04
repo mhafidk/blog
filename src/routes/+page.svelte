@@ -1,5 +1,8 @@
 <script>
 	import BlogCard from '$lib/components/blog-card.svelte';
+
+	export let data;
+	const posts = data.posts;
 </script>
 
 <svelte:head>
@@ -21,6 +24,7 @@
 		<a href="/blog" class="text-violet-600 underline hover:text-violet-700">Checkout my blog</a> or
 		<a
 			href="https://www.youtube.com/@muhammadhafidk"
+			target="_blank"
 			class="text-violet-600 underline hover:text-violet-700">checkout my youtube channel</a
 		>!
 	</p>
@@ -32,10 +36,9 @@
 <div class="mt-16">
 	<h2 class="text-lg font-medium">Latest Blog Posts</h2>
 	<div class="mt-4 grid grid-cols-1 gap-4">
-		<BlogCard />
-		<BlogCard />
-		<BlogCard />
-		<BlogCard />
+		{#each posts as post}
+			<BlogCard {post} />
+		{/each}
 	</div>
 </div>
 <div class="mt-16">
