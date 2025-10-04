@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="mx-auto max-w-3xl p-4">
-	<header class="pt-8">
+	<header class="border-b border-neutral-300 pt-8 pb-12">
 		<h1>
 			<a href="/" class="text-xl font-semibold text-violet-600 hover:text-violet-700"
 				>Muhammad Hafid K</a
@@ -25,7 +25,7 @@
 	<main class="py-12">
 		{@render children?.()}
 	</main>
-	<footer class="mt-72 mb-6 text-center text-sm">
+	<footer class="mt-72 mb-4 border-t border-neutral-300 pt-8 text-center text-sm">
 		<p>
 			© 2024
 			<span class="font-medium text-violet-700">Muhammad Hafid Khoirul</span>.

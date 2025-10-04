@@ -176,7 +176,7 @@
 				platforms! I'll get back to you as soon as possible. 👌
 			</p>
 		</div>
-		<div class="mt-8 flex justify-center gap-8">
+		<div class="mt-12 flex justify-center gap-8">
 			<!-- svelte-ignore a11y_consider_explicit_label -->
 			<a href="mailto:mhafidk@gmail.com" target="_blank" rel="noreferrer">
 				<svg

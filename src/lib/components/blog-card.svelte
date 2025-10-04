@@ -1,7 +1,7 @@
 <div class="rounded bg-neutral-100">
 	<div class="px-6 py-4">
 		<a href="/blog" class="font-medium text-violet-600 hover:text-violet-700">Post Title</a>
-		<p class="line-clamp-3 pt-2 text-neutral-600">
+		<p class="line-clamp-5 pt-2 text-neutral-600 md:line-clamp-3">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quo sint, in saepe,
 			molestias odio rem illo atque mollitia laborum nisi? Temporibus libero deserunt perspiciatis
 			voluptatum nesciunt numquam accusamus illo!
