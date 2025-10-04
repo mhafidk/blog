@@ -11,9 +11,7 @@
 <div class="mx-auto max-w-3xl p-4">
 	<header class="border-b border-neutral-300 pt-8 pb-12">
 		<h1>
-			<a href="/" class="text-xl font-semibold text-violet-600 hover:text-violet-700"
-				>Muhammad Hafid K</a
-			>
+			<a href="/" class="text-xl font-semibold hover:text-violet-700">Muhammad Hafid K</a>
 		</h1>
 		<div class="flex gap-4 pt-2 text-sm text-neutral-700">
 			<a href="/" class="hover:text-violet-700">Home</a>
