@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="">
-	<h1 class="text-center text-3xl font-bold text-violet-600">{metadata.title}</h1>
+	<h1 class="text-center text-3xl font-bold">{metadata.title}</h1>
 	<p class="my-6 mt-4 text-center text-sm text-gray-600">
 		{new Date(metadata.date).toLocaleDateString('en-US', {
 			year: 'numeric',
