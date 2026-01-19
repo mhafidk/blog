@@ -10,7 +10,7 @@
 
 <main class="bg-neutral-50 font-display text-neutral-900">
 	<Header />
-	<div class="mx-auto max-w-2xl px-6 pt-12 text-lg">
+	<div class="mx-auto max-w-2xl px-6 pt-12">
 		{@render children()}
 	</div>
 </main>

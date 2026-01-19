@@ -5,10 +5,10 @@
 <div class="">
 	<div class="">
 		<p>Hi! My name is</p>
-		<p class="mt-1 text-3xl font-semibold">
+		<p class="mt-2 text-3xl font-semibold">
 			Muhammad <span class="text-violet-700">Hafid</span> Khoirul
 		</p>
-		<p class="mt-1">
+		<p class="mt-2">
 			Software engineer based in Bogor, Indonesia. I am currently working as a backend engineer at <a
 				href="https://www.qontak.com"
 				class="text-violet-700 hover:text-violet-800">Qontak</a
@@ -75,4 +75,36 @@
 </div>
 <div class="mt-24">
 	<h2 id="about" class="text-3xl font-semibold">Latest Posts</h2>
+	<div class="mt-6 grid grid-cols-1 gap-10">
+		<div class="">
+			<a href="/blog/post-1" class="text-lg font-semibold text-violet-700 hover:text-violet-800"
+				>Apa Itu Programming?</a
+			>
+			<p class="mt-2 line-clamp-4 text-neutral-700 md:line-clamp-3">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis saepe,
+				voluptatem, ipsum laboriosam libero molestias rem velit fugit dolore debitis, modi
+				repudiandae nam hic quod dolor impedit amet nulla?
+			</p>
+			<div class="mt-3 flex items-center gap-4 text-xs md:text-sm">
+				<p class="rounded-md bg-violet-600 px-2 py-1 text-neutral-50">Jan 19, 2026</p>
+				<p>#programming</p>
+				<p>#basic</p>
+			</div>
+		</div>
+		<div class="">
+			<a href="/blog/post-1" class="text-lg font-semibold text-violet-700 hover:text-violet-800"
+				>Apa Itu Programming?</a
+			>
+			<p class="mt-2 line-clamp-4 text-neutral-700 md:line-clamp-3">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis saepe,
+				voluptatem, ipsum laboriosam libero molestias rem velit fugit dolore debitis, modi
+				repudiandae nam hic quod dolor impedit amet nulla?
+			</p>
+			<div class="mt-3 flex items-center gap-4 text-xs md:text-sm">
+				<p class="rounded-md bg-violet-600 px-2 py-1 text-neutral-50">Jan 19, 2026</p>
+				<p>#programming</p>
+				<p>#basic</p>
+			</div>
+		</div>
+	</div>
 </div>
