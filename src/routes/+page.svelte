@@ -74,7 +74,7 @@
 	</div>
 </div>
 <div class="mt-24">
-	<h2 id="about" class="text-3xl font-semibold">Latest Posts</h2>
+	<h2 class="text-3xl font-semibold">Latest Posts</h2>
 	<div class="mt-6 grid grid-cols-1 gap-10">
 		<div class="">
 			<a href="/blog/post-1" class="text-lg font-semibold text-violet-700 hover:text-violet-800"
@@ -114,7 +114,7 @@
 	</div>
 </div>
 <div class="mt-24">
-	<h2 id="about" class="text-3xl font-semibold">Experiences</h2>
+	<h2 class="text-3xl font-semibold">Experiences</h2>
 	<div class="mt-6 grid grid-cols-1 gap-4">
 		<div class="">
 			<div class="flex items-center gap-3">
@@ -178,5 +178,28 @@
 				</ul>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="mt-24">
+	<h2 class="text-3xl font-semibold">Tools</h2>
+	<div class="mt-6">
+		<p class="hidden sm:block">
+			<!-- svelte-ignore a11y_consider_explicit_label -->
+			<a href="https://skillicons.dev">
+				<!-- svelte-ignore a11y_missing_attribute -->
+				<img
+					src="https://skillicons.dev/icons?i=ruby,python,go,js,html,css,rails,docker,elasticsearch,git,github,opencv,postgres,postman,redis,svelte,tailwind,ubuntu,linux&perline=10"
+				/>
+			</a>
+		</p>
+		<p class="block sm:hidden">
+			<!-- svelte-ignore a11y_consider_explicit_label -->
+			<a href="https://skillicons.dev">
+				<!-- svelte-ignore a11y_missing_attribute -->
+				<img
+					src="https://skillicons.dev/icons?i=ruby,python,go,js,html,css,rails,docker,elasticsearch,git,github,opencv,postgres,postman,redis,svelte,tailwind,ubuntu,linux&perline=6"
+				/>
+			</a>
+		</p>
 	</div>
 </div>
