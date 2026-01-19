@@ -33,7 +33,7 @@
 				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="mailto:mhafidk@gmail.com" target="_blank" rel="noreferrer">
 					<svg
-						class="h-8 w-8 fill-current hover:text-violet-700"
+						class="h-8 w-8 fill-current hover:text-violet-800"
 						role="img"
 						viewBox="0 0 24 24"
 						xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
 				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://www.github.com/mhafidk" target="_blank" rel="noreferrer">
 					<svg
-						class="h-8 w-8 fill-current hover:text-violet-700"
+						class="h-8 w-8 fill-current hover:text-violet-800"
 						role="img"
 						viewBox="0 0 24 24"
 						xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
 				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://www.linkedin.com/in/mhafidk" target="_blank" rel="noreferrer">
 					<svg
-						class="h-8 w-8 fill-current hover:text-violet-700"
+						class="h-8 w-8 fill-current hover:text-violet-800"
 						role="img"
 						viewBox="0 0 24 24"
 						xmlns="http://www.w3.org/2000/svg"
@@ -85,8 +85,8 @@
 				voluptatem, ipsum laboriosam libero molestias rem velit fugit dolore debitis, modi
 				repudiandae nam hic quod dolor impedit amet nulla?
 			</p>
-			<div class="mt-3 flex items-center gap-4 text-xs md:text-sm">
-				<p class="rounded-md bg-violet-600 px-2 py-1 text-neutral-50">Jan 19, 2026</p>
+			<div class="mt-3 flex items-center gap-4 text-xs text-neutral-800 md:text-sm">
+				<p class="rounded-md bg-neutral-700 px-2 py-1 text-neutral-50">Jan 19, 2026</p>
 				<p>#programming</p>
 				<p>#basic</p>
 			</div>
@@ -100,10 +100,82 @@
 				voluptatem, ipsum laboriosam libero molestias rem velit fugit dolore debitis, modi
 				repudiandae nam hic quod dolor impedit amet nulla?
 			</p>
-			<div class="mt-3 flex items-center gap-4 text-xs md:text-sm">
-				<p class="rounded-md bg-violet-600 px-2 py-1 text-neutral-50">Jan 19, 2026</p>
+			<div class="mt-3 flex items-center gap-4 text-xs text-neutral-800 md:text-sm">
+				<p class="rounded-md bg-neutral-700 px-2 py-1 text-neutral-50">Jan 19, 2026</p>
 				<p>#programming</p>
 				<p>#basic</p>
+			</div>
+		</div>
+	</div>
+	<div class="mt-16 text-sm">
+		<a href="/blog" class="rounded-md bg-violet-700 px-4 py-2 text-neutral-50 hover:bg-violet-800"
+			>More posts</a
+		>
+	</div>
+</div>
+<div class="mt-24">
+	<h2 id="about" class="text-3xl font-semibold">Experiences</h2>
+	<div class="mt-6 grid grid-cols-1 gap-4">
+		<div class="">
+			<div class="flex items-center gap-3">
+				<div class="h-2 w-2 bg-violet-700"></div>
+				<p class="text-lg font-semibold">
+					Backend Engineer at <a
+						href="https://www.qontak.com"
+						target="_blank"
+						class="font-semibold text-violet-700 underline hover:text-violet-800">Qontak</a
+					>
+				</p>
+			</div>
+			<p class="mt-2 pl-5 text-sm text-neutral-700">2020 - Present</p>
+			<div class="mt-2">
+				<ul class="list-outside list-disc pl-8 text-neutral-700">
+					<li>
+						Optimized code performance, resulting in a 50% speed increase, by addressing N+1
+						queries, refining query execution, and strategically employing caching.
+					</li>
+					<li>
+						Drove technical feature implementations, managing the development process from RFC
+						conception to final deployment, collaborating closely with FE, QA, Design, and Product
+						teams.
+					</li>
+					<li>
+						Increased test coverage using RSpec, ensuring high code quality and reducing production
+						bugs.
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="">
+			<div class="flex items-center gap-3">
+				<div class="h-2 w-2 bg-violet-700"></div>
+				<p class="text-lg font-semibold">
+					Computer Engineering, <a
+						href="https://www.ub.ac.id"
+						target="_blank"
+						class="font-semibold text-violet-700 underline hover:text-violet-800"
+						>Brawijaya University</a
+					>
+				</p>
+			</div>
+			<p class="mt-2 pl-5 text-sm text-neutral-700">2016 - 2020</p>
+			<div class="mt-2">
+				<ul class="list-outside list-disc pl-8 text-neutral-700">
+					<li>
+						Achieved academic distinction with a cumulative GPA of 3.86, reflecting consistent high
+						performance and dedication.
+					</li>
+					<li>
+						Fueled my passion for technology by joining the Robotics Club, gaining hands-on
+						experience in robotics, programming, and real-world problem solving, with a focus on
+						robotic vision systems, including image detection and recognition.
+					</li>
+					<li>
+						Engaged in numerous robotics competitions, securing awards in several, forging
+						meaningful connections, and enriching my technical and collaborative skills through
+						real-world challenges.
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
