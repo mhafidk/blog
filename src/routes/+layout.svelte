@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import Header from '$lib/components/header.svelte';
+	import Footer from '$lib/components/footer.svelte';
 
 	let { children } = $props();
 </script>
@@ -13,4 +14,5 @@
 	<div class="mx-auto max-w-2xl px-6 pt-12">
 		{@render children()}
 	</div>
+	<Footer />
 </main>

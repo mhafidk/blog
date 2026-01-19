@@ -2,7 +2,7 @@
 	<title>Muhammad Hafid Khoirul</title>
 </svelte:head>
 
-<div class="">
+<div class="mt-12">
 	<div class="">
 		<p>Hi! My name is</p>
 		<p class="mt-2 text-3xl font-semibold">
@@ -73,7 +73,7 @@
 		</div>
 	</div>
 </div>
-<div class="mt-24">
+<div class="mt-36">
 	<h2 class="text-3xl font-semibold">Latest Posts</h2>
 	<div class="mt-6 grid grid-cols-1 gap-10">
 		<div class="">
@@ -113,7 +113,7 @@
 		>
 	</div>
 </div>
-<div class="mt-24">
+<div class="mt-36">
 	<h2 class="text-3xl font-semibold">Experiences</h2>
 	<div class="mt-6 grid grid-cols-1 gap-4">
 		<div class="">
@@ -180,7 +180,7 @@
 		</div>
 	</div>
 </div>
-<div class="mt-24">
+<div class="mt-36">
 	<h2 class="text-3xl font-semibold">Tools</h2>
 	<div class="mt-6">
 		<p class="hidden sm:block">
