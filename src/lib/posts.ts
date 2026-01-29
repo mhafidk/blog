@@ -5,10 +5,10 @@ import { renderMarkdown } from '$lib/markdown';
 
 const postsDir = path.resolve('src/content/posts');
 
-export function getAllPostsMeta() {
+export function getAllPostsMeta(limit?: number) {
 	const files = fs.readdirSync(postsDir);
 
-	return files
+	const posts = files
 		.filter((f) => f.endsWith('.md'))
 		.map((file) => {
 			const filePath = path.join(postsDir, file);
@@ -21,6 +21,12 @@ export function getAllPostsMeta() {
 			};
 		})
 		.sort((a, b) => new Date(b.metadata.date).getTime() - new Date(a.metadata.date).getTime());
+
+	if (limit) {
+		return posts.slice(0, limit);
+	}
+
+	return posts;
 }
 
 export function getPostBySlug(slug: string) {
