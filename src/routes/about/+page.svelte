@@ -2,7 +2,7 @@
 	<title>About</title>
 </svelte:head>
 
-<div class="mt-12">
+<div class="">
 	<h1 class="text-3xl font-bold">About</h1>
 	<div class="mt-6">
 		<p>Hi, how are you? I hope you are fine!</p>

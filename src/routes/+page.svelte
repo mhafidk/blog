@@ -1,12 +1,15 @@
 <script>
 	import BlogCard from '$lib/components/blog-card.svelte';
+
+	export let data;
+	const posts = data.posts;
 </script>
 
 <svelte:head>
 	<title>Muhammad Hafid Khoirul</title>
 </svelte:head>
 
-<div class="mt-12">
+<div class="">
 	<div class="">
 		<p>Hi! My name is</p>
 		<p class="mt-2 text-3xl font-semibold">
@@ -31,7 +34,7 @@
 		</p>
 	</div>
 	<div class="mt-6">
-		<h2 id="contact">Let's connect!</h2>
+		<h2>Let's connect!</h2>
 		<div class="mt-6">
 			<div class="flex gap-6">
 				<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -80,7 +83,9 @@
 <div class="mt-36">
 	<h2 class="text-3xl font-semibold">Latest Posts</h2>
 	<div class="mt-6 grid grid-cols-1 gap-10">
-		<BlogCard />
+		{#each posts as post}
+			<BlogCard {post} />
+		{/each}
 	</div>
 	<div class="mt-16 text-sm">
 		<a href="/blog" class="rounded-md bg-violet-700 px-4 py-2 text-neutral-50 hover:bg-violet-800"
