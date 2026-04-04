@@ -6,7 +6,7 @@ slug: apa-itu-system-design
 description: "Pernah kepikiran ga, lu bisa ngescroll ratusan post tanpa masalah, nontoh puluhan story, ngirim dm. Semuanya itu terasa cepet bangetnya, ga ada error, ga ada lemot lemot, meskipun lu lakuin itu semua bersamaan dengan jutaan pengguna Instagram lainnya. Apa yang terjadi di belakang? Kok bisa gitu?"
 tags:
   - programming
-  - system-designs
+  - system-design
 ---
 
 Di tahun 2026 ini Instagram kira kira punya 3 miliar pengguna, apa lu salah satunya? Kalau iya, pernah kepikiran ga, lu bisa ngescroll ratusan post tanpa masalah, nontoh puluhan story, ngirim dm. Semuanya itu terasa cepet bangetnya, ga ada error, ga ada lemot lemot, meskipun lu lakuin itu semua bersamaan dengan jutaan pengguna Instagram lainnya. Apa yang terjadi di belakang? Kok bisa gitu?

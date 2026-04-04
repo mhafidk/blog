@@ -21,7 +21,7 @@
 		<img src={metadata.image} alt={metadata.title} class="mb-10 w-full rounded" />
 	{/if}
 
-	<article class="prose prose-lg">
+	<article class="prose prose-base max-w-none md:prose-lg">
 		{@html data.post.html}
 	</article>
 </div>
