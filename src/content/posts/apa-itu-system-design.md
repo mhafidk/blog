@@ -3,7 +3,7 @@ title: 01 - Apa Itu System Design?
 date: 2026-04-05
 image: /blog-images/apa-itu-system-design.webp
 slug: apa-itu-system-design
-description: "Pernah kepikiran ga, lu bisa ngescroll ratusan post tanpa masalah, nontoh puluhan story, ngirim dm. Semuanya itu terasa cepet bangetnya, ga ada error, ga ada lemot lemot, meskipun lu lakuin itu semua bersamaan dengan jutaan pengguna Instagram lainnya. Apa yang terjadi di belakang? Kok bisa gitu?"
+description: 'Pernah kepikiran ga, lu bisa ngescroll ratusan post tanpa masalah, nontoh puluhan story, ngirim dm. Semuanya itu terasa cepet bangetnya, ga ada error, ga ada lemot lemot, meskipun lu lakuin itu semua bersamaan dengan jutaan pengguna Instagram lainnya. Apa yang terjadi di belakang? Kok bisa gitu?'
 tags:
   - programming
   - system-design
@@ -40,9 +40,11 @@ System design adalah proses menentukan arsitektur, komponen, data flow, dan bagi
 Bukan tentang bahasa pemrograman apa yang lu pake, bukan juga tentang framework. Tapi bagaiman setiap bagian dari system lu bisa saling terhubung dan melengkapi.
 
 System design dibagi menjadi 2 bagian:
+
 ### High-Level Design (HLD)
 
 Gambaran besar. Komponen-komponen apa yang system lu punya? Bagaimana setiap komponen itu komunikasi satu sama lain? Contoh, lu punya client, server, database, dan mungkin cache. Gimana caranya mereka semua itu terhubung?
+
 ### Low-Level Design (LLD)
 
 Detail. Gimana data modelnya? API contract nya? Algoritma apa yang lu pake buat nyelesein suatu masalah?
@@ -77,12 +79,15 @@ System harus bisa dengan mudah didebug, dirubah, ditambahkan sesuatu. Karena sof
 Penting ga sih system design itu? Kapan ilmu tentang system design ini kepake di keseharian professional kita? Paling engga, ada 3 waktu system design ini diperlukan:
 
 ### Keseharian Kerja Kita
+
 Setiap lu butuh menentukan yang berkaitan dengan arsitektur di kerjaan, nah itu system design. Harus pake SQL atau NoSQL? Perlu cache? Tetep monolith atau perlu microservice? Itu semua contoh hal-hal yang berkaitan sama system design.
 
 ### Technical Interviews
+
 Kalau lu apply ke perusahaan gede atau role senior, dapat dipastikan pas interviewnya pasti akan nyinggung soal system design.
 
 ### Project Pribadi
+
 Kalau lu ada project pribadi, dimana lu buat sebuah aplikasi dari awal, system design ini membantu lu buat menentukan pilihan yang pas sesuai dengan kebutuhan project lu. Jadi pas udah viral nanti aplikasinya ga pusing mikirin user base yang naik terus.
 
 ---
@@ -92,7 +97,7 @@ Kalau lu ada project pribadi, dimana lu buat sebuah aplikasi dari awal, system d
 Blog post ini adalah batu pertama dari rangkaian system design series yang akan mengcover semuanya, dari basic sampai advance. Begini roadmapnya:
 
 - **Fase 1 — Foundations:** Latency, throughput, scaling, load balancing, APIs.
-- **Fase 2 — Data & Storage:** Databases, indexing, caching, replication, sharding. 
+- **Fase 2 — Data & Storage:** Databases, indexing, caching, replication, sharding.
 - **Fase 3 — Distributed Systems:** Message queues, microservices, authentication, observability.
 - **Fase 4 — Reliability & Scalability:** Circuit breakers, the Saga pattern, CQRS, event sourcing.
 - **Fase 5 — Real-World Case Studies:** Praktek langsung nerapin teori yang udah dibahas.

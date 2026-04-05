@@ -33,7 +33,7 @@ export function getPostBySlug(slug: string) {
 	const filePath = path.join(postsDir, `${slug}.md`);
 	const raw = fs.readFileSync(filePath, 'utf-8');
 	const { data: metadata, content } = matter(raw);
-	const html = renderMarkdown(content);
+	const { html, headings } = renderMarkdown(content);
 
-	return { slug, metadata, html };
+	return { slug, metadata, html, headings };
 }
